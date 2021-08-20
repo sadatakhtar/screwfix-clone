@@ -6,7 +6,7 @@ import PersonIcon from '@material-ui/icons/Person';
 
 function HeaderTop() {
     return (
-        <div className='flex justify-between  bg-[#0053a0]'>
+        <div className='flex justify-between  bg-[#0053a0] '>
             <div className='flex text-white p-2 hidden sm:flex'>
                 <h3 className='font-bold text-sm '>Need Help</h3>
                 <img
