@@ -23,13 +23,12 @@ function HeaderTop() {
                     defaultChecked
                     color="default"
                     inputProps={{ 'aria-label': 'checkbox with default color' }}
-      />
-                
+                /> 
                 <h3>EX VAT</h3>
             </div>
-            <div className='flex justify-center items-center pl-2 sm:hidden'>
-                <PersonIcon color="action" fontSize="small"/>
-                <h3 className='text-white text-xs p-2 '>sign in / Regi...</h3>
+            <div className='flex justify-end items-center w-full pl-2 sm:hidden'>
+                <PersonIcon style={{ fill: "white"}} fontSize="small"/>
+                <h3 className='text-white text-xs p-2 '>Sign in / Regi...</h3>
             </div>
            
             
