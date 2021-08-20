@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header/Header'
+import Selecter from '../components/Header/Selecter'
+import SearchIcon from '@material-ui/icons/Search';
+import SelecterHolder from '../components/Header/SelecterHolder';
 
 
 export default function Home() {
@@ -12,6 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <SelecterHolder  Selecter={Selecter}/>
+      {/* <Selecter Icon={SearchIcon} title='Search'/> */}
 
      
     </div>
