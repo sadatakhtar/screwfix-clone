@@ -10,8 +10,8 @@ import Selecter from "./Selecter";
 
 function HeaderBottom() {
   return (
-    <div className="flex bg-white justify-between items-center md:px-20 md:border-b ">
-      <div className="flex ">
+    <div className="flex bg-white justify-between items-center md:px-20 md:border-b p-2">
+      <div className="flex flex-grow">
         <Image src={screwfixLogo} width={220} height={80} objectFit="cover"/>
       </div>
 
