@@ -7,7 +7,7 @@ import PersonIcon from '@material-ui/icons/Person';
 function HeaderTop() {
     return (
         <div className='flex justify-between  bg-[#0053a0] '>
-            <div className='flex text-white p-2 hidden sm:flex'>
+            <div className='flex text-white p-2 hidden sm:flex lg:pl-32'>
                 <h3 className='font-bold text-sm '>Need Help</h3>
                 <img
                     className='object-contain rounded-full ml-1' 
@@ -17,7 +17,7 @@ function HeaderTop() {
                     alt='question mark'
             />
             </div>
-            <div className='flex justify-center items-center text-white font-bold text-sm mr-2 hidden sm:flex'>
+            <div className='flex justify-center items-center text-white font-bold text-sm mr-2 hidden sm:flex lg:pr-48'>
                 <h3>INC VAT</h3>
                 <Switch
                     defaultChecked

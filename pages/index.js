@@ -4,6 +4,7 @@ import Header from '../components/Header/Header'
 import Selecter from '../components/Header/Selecter'
 import SearchIcon from '@material-ui/icons/Search';
 import SelecterHolder from '../components/Header/SelecterHolder';
+import TopNav from '../components/TopNav/TopNav';
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <Header />
       <SelecterHolder  Selecter={Selecter}/>
-      {/* <Selecter Icon={SearchIcon} title='Search'/> */}
+      {/* <TopNav /> */}
 
      
     </div>
