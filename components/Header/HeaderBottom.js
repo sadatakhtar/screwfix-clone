@@ -10,11 +10,11 @@ import InputBar from "../InputBar/InputBar";
 
 function HeaderBottom() {
   return (
-    <div className="flex bg-white justify-between items-center md:px-20 md:border-b p-2">
+    <div className="flex bg-white justify-between items-center md:px-20  p-2 ">
       <div className="flex ">
         <Image src={screwfixLogo} width={290} height={80} objectFit="cover" />
       </div>
-      <div className='hidden md:flex'>
+      <div className='hidden lg:flex'>
         <InputBar />
       </div>
 
