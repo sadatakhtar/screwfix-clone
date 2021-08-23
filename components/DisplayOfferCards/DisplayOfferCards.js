@@ -7,7 +7,7 @@ import tray from '../../assets/tray.webp'
 
 function DisplayOfferCards() {
   return (
-    <div className='flex flex-col lg:grid lg:grid-cols-2'>
+    <div className='flex flex-col lg:grid lg:grid-cols-2 lg:mx-20'>
       <OfferCard
         Icon={drillPic}
         price="£50.00"
