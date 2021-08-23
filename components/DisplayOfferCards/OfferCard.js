@@ -5,7 +5,7 @@ function OfferCard({ Icon, price, description, newPrice, oldPrice}) {
         <div className='flex-grow border-2 mt-5 flex-col sm:mx-40'>
             <div className='flex p-5 text-[#d32f4a] font-bold tracking-tighter'>
             <div className=''>
-                <h1 className='text-4xl sm:text-6xl sm:font-extrabold'>SAVE<br />{price}</h1>
+                <h1 className='text-4xl sm:text-6xl sm:font-extrabold lg:text-3xl'>SAVE<br />{price}</h1>
                 <p className='font-normal text-xs sm:text-sm'>{description}</p>
             </div>
             <div className='pt-5 '>
