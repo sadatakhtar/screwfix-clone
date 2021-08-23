@@ -1,10 +1,13 @@
-import Image from 'next/image'
+import Image from "next/image"
+import hero from '../../assets/screwfixhero.webp'
+
 
 function HeroImage() {
     return (
-        <div className=' pt-5 lg:mx-44 lg:mt-3'> 
-            <img 
-                src={'https://res.cloudinary.com/dstsblg8x/image/upload/v1629632730/screwfixhero_aludpg.webp'}
+        <div className=' pt-5 lg:mx-60 lg:mt-3 '> 
+            <Image className=''
+                src={hero}
+                // width={2000}
                 objectFit='contain'
                 alt='hero'
                 />
