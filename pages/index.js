@@ -7,6 +7,7 @@ import SelecterHolder from '../components/Header/SelecterHolder';
 import TopNav from '../components/TopNav/TopNav';
 import BottomNav from '../components/BottomNav/BottomNav';
 import DeliveryInfo from '../components/DeliveryInfo/DeliveryInfo';
+import HeroImage from '../components/HeroImage/HeroImage';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <TopNav />
       <BottomNav />
       <DeliveryInfo />
+      <HeroImage />
 
      
     </div>
